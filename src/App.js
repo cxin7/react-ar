@@ -11,7 +11,6 @@ function App() {
         </a-assets>
 
         <a-marker
-          id="animated-marker"
           preset="custom"
           type="pattern"
           url="https://cdn.statically.io/gh/cxin7/react-ar/master/src/pattern-2359.patt">
