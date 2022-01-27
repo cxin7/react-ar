@@ -6,14 +6,11 @@ function App() {
       <a-scene
         embedded
         arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
-        <a-assets>
-          <a-asset-item
-            id="robot"
-            src="https://cdn.statically.io/gh/cxin7/react-ar/master/src/robot.glb"></a-asset-item>
-        </a-assets>
-
         <a-marker type="barcode" value="2">
-          <a-entity gltf-model="#robot" animation-mixer></a-entity>
+          <a-entity
+            position="2 2 0"
+            scale="0.05 0.05 0.05"
+            gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"></a-entity>
         </a-marker>
 
         <a-entity camera></a-entity>
