@@ -1,4 +1,5 @@
 import React from 'react';
+import pattFile from './pattern-2359.patt';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
             src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"></a-asset-item>
         </a-assets>
 
-        <a-marker id="animated-marker" type="pattern" url="./pattern-2359.patt">
+        <a-marker id="animated-marker" type="pattern" url={pattFile}>
           <a-entity gltf-model="#animated-asset" scale="2"></a-entity>
         </a-marker>
 
