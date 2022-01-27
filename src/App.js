@@ -9,7 +9,7 @@ function App() {
         <a-assets>
           <a-asset-item
             id="animated-asset"
-            src="https://github.com/nicolocarpignoli/nicolocarpignoli.github.io/blob/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
+            src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"></a-asset-item>
         </a-assets>
 
         <a-marker id="animated-marker" type="pattern" url="./pattern-2359.patt">
