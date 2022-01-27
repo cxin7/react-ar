@@ -16,7 +16,7 @@ function App() {
           <a-entity gltf-model="#robot" animation-mixer></a-entity>
         </a-marker>
 
-        <a-marker type="barcode" value="23">
+        <a-marker type="barcode" value="2">
           <a-box position="0 0.5 0" color="yellow"></a-box>
         </a-marker>
 
